@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/temperture/temperture",
+    "pages/monitor/monitor"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "家庭节点",
+        "iconPath": "/img/node.png",
+        "selectedIconPath": "/img/node_click.png"
+      },
+      {
+        "pagePath": "pages/monitor/monitor",
+        "text": "房间监控",
+        "iconPath": "/img/monitor.png",
+        "selectedIconPath": "/img/monitor_click.png"
+      },
+      {
+        "pagePath": "pages/temperture/temperture",
+        "text": "监测数据",
+        "iconPath": "/img/pie.png",
+        "selectedIconPath": "/img/pie_click.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智能家庭助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

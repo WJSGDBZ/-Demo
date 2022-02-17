@@ -1,0 +1,10 @@
+<view >
+    <view wx:for="{{imgList}}" wx:key="key" bindtap="clickImg" data-index="{{index}}"  >
+        <!--展示图片时间-->
+        <view>{{imgList[index].time}}</view> 
+        <!--展示-->
+        <view style="display:flex;justify-content: center;">
+             <image  style="width:100%;" src="{{imgList[index].url}}" ></image>
+        </view>
+    </view>
+</view>
